@@ -1,6 +1,6 @@
 #!/usr/bin/env groovy
 
-
+///uncommenting lines 
 pipeline {
     agent any
 
