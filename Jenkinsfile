@@ -1,6 +1,6 @@
 #!/usr/bin/env groovy
 
-///uncommenting lines 
+
 pipeline {
     agent any
 
@@ -13,6 +13,8 @@ pipeline {
         stage('Test'){
             steps {
                 echo "This is a Test Stage" 
+                sh 'ls'
+                sh 'java -version'
             }
         }
         stage('Deploy') {
