@@ -1,6 +1,5 @@
 #!/usr/bin/env groovy
 
-# Its just a sample change 
 pipeline {
     agent any 
 
