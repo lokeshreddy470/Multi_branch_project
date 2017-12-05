@@ -5,7 +5,7 @@ properties([
             projectUrlStr: 'https://github.com/lokeshreddy470/Multi_branch_project.git/'],
             pipelineTriggers([githubPush()])
 ])
-
+////
 pipeline {
     agent any
 
