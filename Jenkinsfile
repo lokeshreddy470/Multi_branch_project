@@ -1,5 +1,5 @@
 #!/usr/bin/env groovy
-///unc ommenting line
+///unc ommenting
 
 pipeline {
     agent any 
